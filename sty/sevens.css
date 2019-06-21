@@ -1,0 +1,243 @@
+/* last updated:<2016/12/04/Sun 13:22:39 from:halley-fmvs76g> */
+
+html, body, div {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0;
+    background: #336633;
+}
+
+.frame {
+    display: inline-block;
+    background: #004400;
+    width: 950px;
+    height: 950px;
+    border-radius: 8px;
+    border: 1px solid #002200;
+}
+
+#titleScreen {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+#gameTitle {
+    display: inline-block;
+    margin: 200px 0 0 0;
+    background: #004400;
+    color: #cdcdcd;
+    text-align: center;
+    font-size: 100px;
+}
+
+#start {
+    margin: 300px 0 0 0;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px 40px 20px 40px;
+}
+
+#field {
+    display: inline-block;
+    position: relative;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+}
+
+#result {
+    font-size: 100px;
+    padding: 70px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10pt #ffffff;
+    display: none;
+    background: #003300;
+    overflow: hidden;
+}
+
+#ranking {
+    display: inline-block;
+    font-size: 100px;
+    text-align: left;
+    margin: 50px;
+    background: #003300;
+}
+
+#retry {
+    display: inline-block;
+    font-size: 80px;
+    padding: 10px 30px 10px 30px;
+}
+
+.card {
+    transition: all 0.5s ease 0.5s;
+    display: inline-block;
+    position: absolute;
+    background: #000000;
+    font-size: 26px;
+    border-radius: 5px;
+    height: 70px;
+    width: 42px;
+    border: 1px solid #000000;
+    /* 選択を無効にする */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.back {
+    transition: all 0.5s ease 0.5s;
+    background: #000022 !important;
+    color: #000022 !important;
+    text-shadow: 0 0 0 #000022 !important;
+    border: 1px solid #aaaaaa !important;
+}
+
+.oneCharacter {
+    padding: 20px 0 0 0px;
+}
+
+.twoCharacter {
+    padding: 5px 0 0 0px;
+}
+
+.joker {
+    background: #000000;
+    color: #000000;
+    text-shadow: 0 0 4pt #ffffff, 0 0 2pt #ffffff, 0 0 1pt #ffffff;
+}
+
+.red {
+    color: #ff8888;
+    text-shadow: 0 0 8pt #ff9999;
+}
+
+.green {
+    color: #99ff99;
+    text-shadow: 0 0 8pt #11ff11;
+}
+
+.blue {
+    color: #aaaaff;
+    text-shadow: 0 0 8pt #9999ff;
+}
+
+.yellow {
+    color: #eeee77;
+    text-shadow: 0 0 8pt #dddd11;
+}
+
+.available {
+    background: #777777;
+    border: 1px solid #777777;
+}
+
+#information {
+    display: inline-block;
+    position: absolute;
+    padding: 5px;
+    width: 750px;
+    height: 180px;
+    border-radius: 8px;
+    color: #000000;
+    top: 650px;
+    left: 100px;
+}
+
+#playerInf {
+    display: inline-block;
+    position: absolute;
+    padding: 5px;
+    font-size: 30px;
+    width: 300px;
+    height: 150px;
+    top: 15px;
+    left: 400px;
+    background: #000000;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    color: #ffffff;
+    text-shadow: 0 0 10pt #ffffff;
+}
+
+#pass {
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 50px;
+}
+
+#titleButton {
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    left: 50px;
+}
+
+.bDesign {
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 10pt #ffffff;
+    padding: 5px;
+    font-size: 40px;
+    background: #000000;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1pt #000000;
+}
+
+.bDesign:active {
+    background: #333333;
+    box-shadow: none;
+}
+
+#message {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    padding: 5px;
+    font-size: 120pt;
+    width: 600px;
+    background: rgba(0, 0, 0, 0);
+    color: #ff3333;
+    top: 380px;
+    left: -600px;
+}
+
+
+/* ################################ tool ################################ */
+*, *:before, *:after  {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    cursor: pointer;
+}
